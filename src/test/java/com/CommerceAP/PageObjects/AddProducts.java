@@ -1,9 +1,11 @@
 package com.CommerceAP.PageObjects;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class AddProducts {
 	
@@ -29,6 +31,21 @@ public class AddProducts {
 	
 	@FindBy(xpath="//textarea[@id='ShortDescription']")
 	WebElement ShortDesc;
+	
+	@FindBy(xpath="//input[@id='Sku']")
+	WebElement SKU;
+	
+	@FindBy(xpath="//input[@id='Published']")
+	WebElement Published;
+	
+	@FindBy(xpath="//select[@id='ProductTypeId']")
+	WebElement ProductType;
+	
+	@FindBy(xpath="//input[@id='ShowOnHomepage']")
+	WebElement VisibelInd;
+	
+	@FindBy(xpath="//select[@id='VendorId']")
+	WebElement Vendor;
 	
 	@FindBy(xpath="//button[@name='save']")
 	WebElement Save;
@@ -59,6 +76,51 @@ public class AddProducts {
 	{
 		ShortDesc.sendKeys(SD);
 	}
+	
+	public void EntSKU(String SK)
+	{
+		SKU.sendKeys(SK);
+	}
+	
+	public void CheckPublished()
+	{
+		boolean Pu=Published.isSelected();
+		if(Pu==true)
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+	}
+	
+	public void SelProductType()
+	{
+		Select pt = new Select(ProductType);
+		pt.selectByIndex(1);
+	}
+	
+	public void CheckVisibleInd()
+	{
+		boolean VI=VisibelInd.isSelected();
+		
+		if(VI==true)
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+	}
+	
+	public void SelVandor()
+	{
+		Select SV = new Select(Vendor);
+		SV.selectByIndex(2);
+	}
+	
 	
 	public void ClickSave()
 	{
