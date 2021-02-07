@@ -34,6 +34,12 @@ public class TC_AddProducts_002 extends BaseClass{
 		ap.ClickAddNew();
 		ap.EntProductName("Ipad Device");
 		ap.EntShortDesc("This is Iphone 2");
+		ap.EntSKU("Entertantment");
+		ap.CheckPublished();
+		ap.SelProductType();
+		ap.CheckVisibleInd();
+		ap.SelVandor();
+		
 		ap.ClickSave();
 		
 		boolean res = driver.getPageSource().contains("The new product has been added successfully.");
