@@ -13,7 +13,8 @@
 		<classes>
 			
 			<!-- class name="com.CommerceAP.TestCases.TC_LoginTest_001" /> --> 
-			<class name="com.CommerceAP.TestCases.TC_AddProducts_002" /> 
+			<!--  class name="com.CommerceAP.TestCases.TC_AddProducts_002" /> -->
+			<class name="com.CommerceAP.TestCases.TC_AddCatagories_003" /> 
 			
 			
 		</classes>
