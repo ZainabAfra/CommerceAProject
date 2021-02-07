@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-06T19:09:55 EST" name="CommerceAP" finished-at="2021-02-06T19:10:31 EST" duration-ms="36274">
+  <suite started-at="2021-02-06T21:53:48 EST" name="CommerceAP" finished-at="2021-02-06T21:54:53 EST" duration-ms="65079">
     <groups>
     </groups>
-    <test started-at="2021-02-06T19:09:55 EST" name="CommerceAP Test" finished-at="2021-02-06T19:10:31 EST" duration-ms="36274">
+    <test started-at="2021-02-06T21:53:48 EST" name="CommerceAP Test" finished-at="2021-02-06T21:54:53 EST" duration-ms="65079">
       <class name="com.CommerceAP.TestCases.TC_AddCatagories_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.CommerceAP.TestCases.TC_AddCatagories_003@d6e7bab]" started-at="2021-02-06T19:09:56 EST" name="setup" finished-at="2021-02-06T19:10:09 EST" duration-ms="12650" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.CommerceAP.TestCases.TC_AddCatagories_003@d6e7bab]" started-at="2021-02-06T21:53:50 EST" name="setup" finished-at="2021-02-06T21:54:19 EST" duration-ms="28962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddCatagories()[pri:0, instance:com.CommerceAP.TestCases.TC_AddCatagories_003@d6e7bab]" started-at="2021-02-06T19:10:09 EST" name="AddCatagories" finished-at="2021-02-06T19:10:30 EST" duration-ms="20959" status="PASS">
+        <test-method signature="AddCatagories()[pri:0, instance:com.CommerceAP.TestCases.TC_AddCatagories_003@d6e7bab]" started-at="2021-02-06T21:54:19 EST" name="AddCatagories" finished-at="2021-02-06T21:54:51 EST" duration-ms="31801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCatagories -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.CommerceAP.TestCases.TC_AddCatagories_003@d6e7bab]" started-at="2021-02-06T19:10:30 EST" name="tearDown" finished-at="2021-02-06T19:10:31 EST" duration-ms="1702" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.CommerceAP.TestCases.TC_AddCatagories_003@d6e7bab]" started-at="2021-02-06T21:54:51 EST" name="tearDown" finished-at="2021-02-06T21:54:53 EST" duration-ms="1549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
