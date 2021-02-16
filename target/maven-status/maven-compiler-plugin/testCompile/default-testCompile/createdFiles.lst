@@ -1,7 +1,0 @@
-com\CommerceAP\TestCases\TC_AddProducts_002.class
-com\CommerceAP\TestCases\TC_LoginTest_001.class
-com\CommerceAP\utilities\ReadConfig.class
-com\CommerceAP\utilities\Reporting.class
-com\CommerceAP\PageObjects\AddProducts.class
-com\CommerceAP\TestCases\BaseClass.class
-com\CommerceAP\PageObjects\LoginPage.class

@@ -26,7 +26,7 @@ public class LoginPage {
 	
 	@FindBy(xpath="//input[@type='submit']")
 	WebElement Login;
-	
+	 
 	
 	//Action Methods
 	

@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.753 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 124.471 sec <<< FAILURE! - in TestSuite
+Shipments(com.CommerceAP.TestCases.TC_Shipments_005)  Time elapsed: 35.384 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 4
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AFRA', ip: '192.168.0.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.CommerceAP.PageObjects.AddShipments.SelState(AddShipments.java:110)
+	at com.CommerceAP.TestCases.TC_Shipments_005.Shipments(TC_Shipments_005.java:33)
+

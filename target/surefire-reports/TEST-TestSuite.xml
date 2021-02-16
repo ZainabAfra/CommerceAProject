@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="33.934" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="35.384" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.9+7-LTS"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install clean"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,5 +64,29 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="AddProducts" classname="com.CommerceAP.TestCases.TC_AddProducts_002" time="33.934"/>
+  <testcase name="Shipments" classname="com.CommerceAP.TestCases.TC_Shipments_005" time="35.384">
+    <failure message="Cannot locate option with index: 4&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;AFRA&apos;, ip: &apos;192.168.0.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 4
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AFRA', ip: '192.168.0.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
+	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
+	at com.CommerceAP.PageObjects.AddShipments.SelState(AddShipments.java:110)
+	at com.CommerceAP.TestCases.TC_Shipments_005.Shipments(TC_Shipments_005.java:33)
+</failure>
+    <system-out><![CDATA[ INFO [main] (TC_Shipments_005.java:13)- Url is Opened
+ INFO [main] (TC_Shipments_005.java:18)- Entered Email Id
+ INFO [main] (TC_Shipments_005.java:20)- Entered Password
+ INFO [main] (TC_Shipments_005.java:25)- AddShipments info provided
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 13956
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1613506019.620][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
+Feb 16, 2021 3:07:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>
