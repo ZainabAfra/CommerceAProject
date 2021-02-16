@@ -60,6 +60,7 @@
 2021-02-06 19:10:09,920 - EcommerceProject -INFO - Entered Email Id
 2021-02-06 19:10:10,395 - EcommerceProject -INFO - Entered Password
 2021-02-06 19:10:16,682 - EcommerceProject -INFO - AddCategories info provided
+<<<<<<< HEAD
 2021-02-06 22:01:54,155 - EcommerceProject -INFO - Url is Opened
 2021-02-06 22:01:54,856 - EcommerceProject -INFO - Entered Email Id
 2021-02-06 22:01:55,308 - EcommerceProject -INFO - Entered Password
@@ -164,3 +165,9 @@
 2021-02-16 15:12:08,827 - EcommerceProject -INFO - Entered Email Id
 2021-02-16 15:12:09,258 - EcommerceProject -INFO - Entered Password
 2021-02-16 15:12:17,600 - EcommerceProject -INFO - AddShipments info provided
+=======
+2021-02-06 21:54:19,527 - EcommerceProject -INFO - Url is Opened
+2021-02-06 21:54:20,595 - EcommerceProject -INFO - Entered Email Id
+2021-02-06 21:54:21,091 - EcommerceProject -INFO - Entered Password
+2021-02-06 21:54:28,788 - EcommerceProject -INFO - AddCategories info provided
+>>>>>>> 5752ba4d587fbfbfdabfada59b05c754d38604e1
