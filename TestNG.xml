@@ -18,7 +18,8 @@
 			<!--  class name="com.CommerceAP.TestCases.TC_AddCatagories_003" /> -->
 			<!--  class name="com.CommerceAP.TestCases.TC_AddOrder_004" /> -->
 			<!--  class name="com.CommerceAP.TestCases.TC_Shipments_005" /> -->
-			<class name="com.CommerceAP.TestCases.TC_AddCoustomers_006" />
+			<!-- class name="com.CommerceAP.TestCases.TC_AddCoustomers_006" />  -->
+			<class name="com.CommerceAP.TestCases.TC_AddDiscounts_007" />
 			
 			
 		</classes>

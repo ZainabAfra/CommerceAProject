@@ -107,6 +107,8 @@ public class AddCustomers {
 	{
 		Select ven = new Select(Vendor);
 		ven.selectByIndex(2);
+		System.out.println(ven.getOptions().size()); // Number of items present in the drop down box
+		
 	}
 	
 	public void Save()
