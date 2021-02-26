@@ -9,9 +9,13 @@ com\CommerceAP\utilities\Reporting.class
 com\CommerceAP\TestCases\TC_AddCatagories_003.class
 com\CommerceAP\TestCases\TC_AddOrder_004.class
 com\CommerceAP\PageObjects\AddOrder.class
-com\CommerceAP\TestCases\AddNewVendor.class
+com\CommerceAP\TestCases\TC_AddAffiliate_009.class
+com\CommerceAP\TestCases\TC_AddDiscounts_008.class
+com\CommerceAP\PageObjects\AddNewVendor.class
 com\CommerceAP\PageObjects\AddCustomers.class
 com\CommerceAP\TestCases\TC_AddNewVendors_007.class
+com\CommerceAP\PageObjects\AddDiscounts.class
 com\CommerceAP\PageObjects\AddProducts.class
 com\CommerceAP\TestCases\BaseClass.class
+com\CommerceAP\PageObjects\AddAffiliate.class
 com\CommerceAP\PageObjects\LoginPage.class

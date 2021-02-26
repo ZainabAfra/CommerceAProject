@@ -16,19 +16,12 @@
 			<!--  class name="com.CommerceAP.TestCases.TC_LoginTest_001" />-->
 			<!--  class name="com.CommerceAP.TestCases.TC_AddProducts_002" /> -->
 			<!--  class name="com.CommerceAP.TestCases.TC_AddCatagories_003" /> -->
-<<<<<<< HEAD
 			<!-- class name="com.CommerceAP.TestCases.TC_AddOrder_004" />-->
 			<!-- class name="com.CommerceAP.TestCases.TC_Shipments_005" />  -->
-			<!--  class name="com.CommerceAP.TestCases.TC_AddCoustomers_006" /> -->
+			<!-- class name="com.CommerceAP.TestCases.TC_AddCoustomers_006" /> -->
 			<!--  class name="com.CommerceAP.TestCases.TC_AddNewVendors_007" />-->
-			<class name="com.CommerceAP.TestCases.TC_AddDiscounts_008" />
-			
-=======
-			<!--  class name="com.CommerceAP.TestCases.TC_AddOrder_004" /> -->
-			<!--  class name="com.CommerceAP.TestCases.TC_Shipments_005" /> -->
-			<!-- class name="com.CommerceAP.TestCases.TC_AddCoustomers_006" />  -->
-			<class name="com.CommerceAP.TestCases.TC_AddDiscounts_007" />
->>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
+			<!--  class name="com.CommerceAP.TestCases.TC_AddDiscounts_008" />-->
+			<class name="com.CommerceAP.TestCases.TC_AddAffiliate_009" />
 			
 			
 		</classes>

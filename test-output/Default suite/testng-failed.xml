@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CommerceAP.TestCases.TC_AddCatagories_003">
+      <class name="com.CommerceAP.TestCases.TC_AddCoustomers_006">
         <methods>
+          <include name="AddCoustomers"/>
           <include name="tearDown"/>
-          <include name="AddCatagories"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.CommerceAP.TestCases.TC_AddCatagories_003 -->
+      </class> <!-- com.CommerceAP.TestCases.TC_AddCoustomers_006 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

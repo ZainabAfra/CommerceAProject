@@ -324,3 +324,42 @@
 2021-02-19 16:44:07,467 [main] INFO EcommerceProject - Entered Email Id
 2021-02-19 16:44:07,989 [main] INFO EcommerceProject - Entered Password
 >>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
+2021-02-26 13:07:08,261 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 13:07:10,341 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 13:07:10,820 [main] INFO EcommerceProject - Entered Password
+2021-02-26 13:07:21,717 [main] INFO EcommerceProject - AddDiscounts information added
+2021-02-26 13:07:41,684 [main] INFO EcommerceProject - Testcase passed
+2021-02-26 13:11:14,877 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 13:11:16,065 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 13:11:16,578 [main] INFO EcommerceProject - Entered Password
+2021-02-26 13:11:25,957 [main] INFO EcommerceProject - AddDiscounts information added
+2021-02-26 13:11:48,644 [main] INFO EcommerceProject - Testcase passed
+2021-02-26 14:08:51,811 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 14:08:53,621 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 14:08:54,084 [main] INFO EcommerceProject - Entered Password
+2021-02-26 14:09:03,260 [main] INFO EcommerceProject - Customers info provided
+2021-02-26 15:49:46,179 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 15:49:52,368 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 15:49:52,927 [main] INFO EcommerceProject - Entered Password
+2021-02-26 15:50:03,658 [main] INFO EcommerceProject - Customers info provided
+2021-02-26 15:50:24,185 [main] INFO EcommerceProject - Test case passed
+2021-02-26 16:43:08,001 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 16:43:14,657 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 16:43:15,207 [main] INFO EcommerceProject - Entered Password
+2021-02-26 16:45:52,265 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 16:45:53,079 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 16:45:53,626 [main] INFO EcommerceProject - Entered Password
+2021-02-26 16:46:02,051 [main] INFO EcommerceProject - Affiliate info added
+2021-02-26 16:49:29,797 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 16:49:31,438 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 16:49:31,892 [main] INFO EcommerceProject - Entered Password
+2021-02-26 16:49:41,148 [main] INFO EcommerceProject - Affiliate info added
+2021-02-26 16:51:07,480 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 16:51:08,258 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 16:51:08,737 [main] INFO EcommerceProject - Entered Password
+2021-02-26 16:51:17,820 [main] INFO EcommerceProject - Affiliate info added
+2021-02-26 16:57:38,693 [main] INFO EcommerceProject - Url is Opened
+2021-02-26 16:57:40,394 [main] INFO EcommerceProject - Entered Email Id
+2021-02-26 16:57:40,921 [main] INFO EcommerceProject - Entered Password
+2021-02-26 16:57:50,969 [main] INFO EcommerceProject - Affiliate info added
+2021-02-26 16:58:15,303 [main] INFO EcommerceProject - Test cases passed

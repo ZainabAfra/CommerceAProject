@@ -1,5 +1,7 @@
 package com.CommerceAP.TestCases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,7 +11,7 @@ import com.CommerceAP.PageObjects.LoginPage;
 public class TC_AddCoustomers_006 extends BaseClass{
 	
 	@Test
-	public void AddCoustomers()
+	public void AddCoustomers() throws IOException
 	{
 		logger.info("Url is Opened");
 		
@@ -26,7 +28,8 @@ public class TC_AddCoustomers_006 extends BaseClass{
 		addCu.Customers();
 		addCu.addCustomers();
 		addCu.AddNew();
-		addCu.Email("Afsar90@yahoo.com");
+		String email=randomestring()+"@gmail.com";
+		addCu.Email(email);
 		addCu.Password("1234457");
 		addCu.FirstName("Muhammed");
 		addCu.LastName("Udin");
@@ -35,7 +38,7 @@ public class TC_AddCoustomers_006 extends BaseClass{
 		addCu.vendor();
 		addCu.Save();
 		
-		boolean ser=driver.getPageSource().contains("Add a new customer");
+		boolean ser=driver.getPageSource().contains("The new customer has been added successfully.");
 		if(ser==true)
 		{
 			Assert.assertTrue(true);
@@ -43,6 +46,7 @@ public class TC_AddCoustomers_006 extends BaseClass{
 		}
 		else
 		{
+			captureScreen(driver,"AddCustomers");
 			Assert.assertTrue(false);
 			logger.info("Test case failed");
 			

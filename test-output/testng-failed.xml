@@ -7,23 +7,13 @@
   <test thread-count="5" name="CommerceAP Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-<<<<<<< HEAD
-      <class name="com.CommerceAP.TestCases.TC_AddDiscounts_008">
+      <class name="com.CommerceAP.TestCases.TC_AddAffiliate_009">
         <methods>
-=======
-      <class name="com.CommerceAP.TestCases.TC_AddCoustomers_006">
-        <methods>
-          <include name="AddCoustomers"/>
->>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
           <include name="tearDown"/>
-          <include name="AddDiscounts"/>
           <include name="setup"/>
+          <include name="AddAffiliate"/>
         </methods>
-<<<<<<< HEAD
-      </class> <!-- com.CommerceAP.TestCases.TC_AddDiscounts_008 -->
-=======
-      </class> <!-- com.CommerceAP.TestCases.TC_AddCoustomers_006 -->
->>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
+      </class> <!-- com.CommerceAP.TestCases.TC_AddAffiliate_009 -->
     </classes>
   </test> <!-- CommerceAP Test(failed) -->
 </suite> <!-- Failed suite [CommerceAP] -->

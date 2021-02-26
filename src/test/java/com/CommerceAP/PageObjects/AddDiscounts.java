@@ -12,7 +12,6 @@ public class AddDiscounts {
 	
 	public AddDiscounts(WebDriver rdriver)
 	{
-<<<<<<< HEAD
 		ldriver=rdriver;
 		PageFactory.initElements(rdriver, this);
 		
@@ -21,19 +20,7 @@ public class AddDiscounts {
 	@FindBy(xpath="//span[normalize-space()='Promotions']")
 	WebElement Promotions;
 	
-	@FindBy(xpath="//a[@href='/Admin/Discount/List']")
-=======
-		ldriver = rdriver;
-		PageFactory.initElements(rdriver, this);
-	}
-	
-	//Finds Elements
-	
-	@FindBy(xpath="//span[normalize-space()='Promotions']")
-	WebElement Promotions;
-	
 	@FindBy(xpath="//span[normalize-space()='Discounts']")
->>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
 	WebElement Discounts;
 	
 	@FindBy(xpath="//a[normalize-space()='Add new']")
@@ -45,7 +32,6 @@ public class AddDiscounts {
 	@FindBy(xpath="//select[@id='DiscountTypeId']")
 	WebElement DiscountType;
 	
-<<<<<<< HEAD
 	@FindBy(xpath="//input[@title='0.0000 USD']")
 	WebElement DiscountAmount;
 	
@@ -61,11 +47,6 @@ public class AddDiscounts {
 	@FindBy(xpath="//textarea[@id='AdminComment']")
 	WebElement AdminComment;
 	
-=======
-	@FindBy(xpath="//select[@id='DiscountLimitationId']")
-	WebElement DiscountLimit;
-	
->>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
 	@FindBy(xpath="//button[@name='save']")
 	WebElement Save;
 	
@@ -95,7 +76,7 @@ public class AddDiscounts {
 	{
 		Select Dis = new Select(DiscountType);
 		Dis.selectByIndex(3);
-<<<<<<< HEAD
+
 	}
 	
 	public void StartDate(String SD)
@@ -106,16 +87,13 @@ public class AddDiscounts {
 	public void EndDate(String ED)
 	{
 		EndDate.sendKeys(ED);
-=======
-		System.out.println(Dis.getOptions().size());
->>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
+
 	}
-	
 	public void DiscountLimit()
 	{
 		Select DisL = new Select(DiscountLimit);
 		DisL.selectByIndex(1);
-<<<<<<< HEAD
+
 	}
 	
 	public void AdminComment(String Ad)
@@ -123,15 +101,10 @@ public class AddDiscounts {
 		AdminComment.sendKeys(Ad);
 	}
 	
-	public void Save() 
-=======
-		System.out.println(DisL.getOptions().size());
-		
-				
-	}
+	
 	
 	public void Save()
->>>>>>> da3de8890f963ee2ccb7680aed8ed0105194338d
+
 	{
 		Save.click();
 	}
