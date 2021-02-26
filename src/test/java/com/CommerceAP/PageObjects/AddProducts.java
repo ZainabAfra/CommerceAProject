@@ -26,6 +26,9 @@ public class AddProducts {
 	@FindBy(xpath="//body/div[3]/div[3]/div[1]/form[1]/div[1]/div[1]/a[1]")
 	WebElement AddNew;
 	
+	@FindBy(xpath="//span[@class='onoffswitch-switch']")
+	WebElement Basic;
+	
 	@FindBy(xpath="//input[@id='Name']")
 	WebElement ProductName;
 	
@@ -65,6 +68,11 @@ public class AddProducts {
 	public void ClickAddNew()
 	{
 		AddNew.click();
+	}
+	
+	public void Basic()
+	{
+		Basic.click();
 	}
 	
 	public void EntProductName(String PN)

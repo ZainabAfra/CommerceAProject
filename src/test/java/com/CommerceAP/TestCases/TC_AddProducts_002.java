@@ -12,7 +12,7 @@ import com.CommerceAP.PageObjects.AddProducts;
 public class TC_AddProducts_002 extends BaseClass{
 
 	@Test
-	public void AddProducts()
+	public void AddProducts() throws InterruptedException
 	{
 		logger.info("Url is Opened");
 		
@@ -32,6 +32,8 @@ public class TC_AddProducts_002 extends BaseClass{
 		ap.ClickCatelog();
 		ap.ClickProducts();
 		ap.ClickAddNew();
+		Thread.sleep(3000);
+		ap.Basic();
 		ap.EntProductName("Ipad Device");
 		ap.EntShortDesc("This is Iphone 2");
 		ap.EntSKU("Entertantment");

@@ -34,10 +34,12 @@ public class TC_AddCatagories_003 extends BaseClass{
 			boolean ser=driver.getPageSource().contains("The new category has been added successfully.");
 			if(ser==true)
 			{
+				logger.info("Test case passed");
 				Assert.assertTrue(true);
 			}
 			else
 			{
+				logger.info("Test case failed");
 				Assert.assertTrue(false);
 				
 			}
