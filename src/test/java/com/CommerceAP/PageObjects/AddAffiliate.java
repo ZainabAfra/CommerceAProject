@@ -126,14 +126,14 @@ public class AddAffiliate {
 		Address.sendKeys(ad);
 	}
 	
-	public void Zip(String zp)
+	public void Zip(int zp)
 	{
-		Zip.sendKeys(zp);
+		Zip.sendKeys(String.valueOf(zp));
 	}
 	
-	public void PhoneNumber(String pn)
+	public void PhoneNumber(int pn)
 	{
-		PhoneNumber.sendKeys(pn);
+		PhoneNumber.sendKeys(String.valueOf(pn));
 	}
 	
 	public void Save()

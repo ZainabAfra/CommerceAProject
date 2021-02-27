@@ -1,4 +1,5 @@
 com\CommerceAP\TestCases\TC_Shipments_005.class
+com\CommerceAP\PageObjects\AddEmailAccount.class
 com\CommerceAP\TestCases\TC_AddCoustomers_006.class
 com\CommerceAP\PageObjects\AddCategories.class
 com\CommerceAP\TestCases\TC_AddProducts_002.class
@@ -9,6 +10,7 @@ com\CommerceAP\utilities\Reporting.class
 com\CommerceAP\TestCases\TC_AddCatagories_003.class
 com\CommerceAP\TestCases\TC_AddOrder_004.class
 com\CommerceAP\PageObjects\AddOrder.class
+com\CommerceAP\TestCases\TC_AddEmailaccount_010.class
 com\CommerceAP\TestCases\TC_AddAffiliate_009.class
 com\CommerceAP\TestCases\TC_AddDiscounts_008.class
 com\CommerceAP\PageObjects\AddNewVendor.class

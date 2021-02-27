@@ -39,9 +39,9 @@ public class TC_AddAffiliate_009 extends BaseClass{
 		addaf.Region("Norcross");
 		addaf.City("Lilburn");
 		addaf.Address("123 Durham ");
-		addaf.Zip("30047");
-		String phonenumber=randomestring()+4;
-		addaf.PhoneNumber(phonenumber);
+		addaf.Zip(30047);
+		String pn=randomeNum()+ 4;
+		addaf.PhoneNumber(789456123);
 		addaf.Save();
 		
 		boolean aff=driver.getPageSource().contains("The new affiliate has been added successfully.");
