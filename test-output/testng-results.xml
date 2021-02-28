@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-26T22:05:19 EST" name="CommerceAP" finished-at="2021-02-26T22:05:57 EST" duration-ms="37378">
+  <suite started-at="2021-02-27T21:35:02 EST" name="CommerceAP" finished-at="2021-02-27T21:36:10 EST" duration-ms="67970">
     <groups>
     </groups>
-    <test started-at="2021-02-26T22:05:19 EST" name="CommerceAP Test" finished-at="2021-02-26T22:05:57 EST" duration-ms="37378">
-      <class name="com.CommerceAP.TestCases.TC_AddEmailaccount_010">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.CommerceAP.TestCases.TC_AddEmailaccount_010@1649b0e6]" started-at="2021-02-26T22:05:20 EST" name="setup" finished-at="2021-02-26T22:05:34 EST" duration-ms="14100" status="PASS">
+    <test started-at="2021-02-27T21:35:02 EST" name="CommerceAP Test" finished-at="2021-02-27T21:36:10 EST" duration-ms="67970">
+      <class name="com.CommerceAP.TestCases.TC_AddLanguages_011">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.CommerceAP.TestCases.TC_AddLanguages_011@1649b0e6]" started-at="2021-02-27T21:35:03 EST" name="setup" finished-at="2021-02-27T21:35:30 EST" duration-ms="27119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddEmailaccount()[pri:0, instance:com.CommerceAP.TestCases.TC_AddEmailaccount_010@1649b0e6]" started-at="2021-02-26T22:05:34 EST" name="AddEmailaccount" finished-at="2021-02-26T22:05:55 EST" duration-ms="20127" status="PASS">
+        <test-method signature="AddLanguages()[pri:0, instance:com.CommerceAP.TestCases.TC_AddLanguages_011@1649b0e6]" started-at="2021-02-27T21:35:31 EST" name="AddLanguages" finished-at="2021-02-27T21:35:59 EST" duration-ms="28942" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddEmailaccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.CommerceAP.TestCases.TC_AddEmailaccount_010@1649b0e6]" started-at="2021-02-26T22:05:55 EST" name="tearDown" finished-at="2021-02-26T22:05:57 EST" duration-ms="2107" status="PASS">
+        </test-method> <!-- AddLanguages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.CommerceAP.TestCases.TC_AddLanguages_011@1649b0e6]" started-at="2021-02-27T21:36:00 EST" name="tearDown" finished-at="2021-02-27T21:36:10 EST" duration-ms="10496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.CommerceAP.TestCases.TC_AddEmailaccount_010 -->
+      </class> <!-- com.CommerceAP.TestCases.TC_AddLanguages_011 -->
     </test> <!-- CommerceAP Test -->
   </suite> <!-- CommerceAP -->
 </testng-results>

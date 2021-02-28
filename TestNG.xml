@@ -22,7 +22,8 @@
 			<!--  class name="com.CommerceAP.TestCases.TC_AddNewVendors_007" />-->
 			<!--  class name="com.CommerceAP.TestCases.TC_AddDiscounts_008" />-->
 			<!--  class name="com.CommerceAP.TestCases.TC_AddAffiliate_009" />-->
-			<class name="com.CommerceAP.TestCases.TC_AddEmailaccount_010" />
+			<!--  class name="com.CommerceAP.TestCases.TC_AddEmailaccount_010" />-->
+			<class name="com.CommerceAP.TestCases.TC_AddLanguages_011" />
 			
 			
 		</classes>
