@@ -17,10 +17,10 @@ public class AddDiscounts {
 		
 	}
 	
-	@FindBy(xpath="//span[normalize-space()='Promotions']")
+	@FindBy(xpath="//p[normalize-space()='Promotions']")
 	WebElement Promotions;
 	
-	@FindBy(xpath="//span[normalize-space()='Discounts']")
+	@FindBy(xpath="//p[normalize-space()='Discounts']")
 	WebElement Discounts;
 	
 	@FindBy(xpath="//a[normalize-space()='Add new']")

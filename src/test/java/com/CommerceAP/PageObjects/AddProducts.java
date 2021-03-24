@@ -23,6 +23,12 @@ public class AddProducts {
 	@FindBy(xpath="//body/div[3]/div[2]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]/span[1]")
 	WebElement Products;
 	
+	/*@FindBy(xpath="//button[normalize-space()='']")
+	WebElement Import;
+	
+	@FindBy(xpath="//input[@id='importexcelfile']")
+	WebElement ChooseFile;*/
+	
 	@FindBy(xpath="//body/div[3]/div[3]/div[1]/form[1]/div[1]/div[1]/a[1]")
 	WebElement AddNew;
 	
@@ -64,6 +70,14 @@ public class AddProducts {
 	{
 		Products.click();
 	}
+	/*public void Import()
+	{
+		Import.click();
+	}
+	public void ChooseFile()
+	{
+		ChooseFile.click();
+	}*/
 	
 	public void ClickAddNew()
 	{

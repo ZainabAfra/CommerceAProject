@@ -10,8 +10,8 @@ import com.CommerceAP.PageObjects.LoginPage;
 
 public class TC_AddCoustomers_006 extends BaseClass{
 	
-	@Test
-	public void AddCoustomers() throws IOException
+	@Test     
+	public void AddCoustomers() throws IOException               
 	{
 		logger.info("Url is Opened");
 		

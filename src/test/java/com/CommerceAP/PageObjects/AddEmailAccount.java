@@ -17,10 +17,10 @@ public class AddEmailAccount {
 	
 	//Finds Elements
 	
-	@FindBy(xpath="//span[normalize-space()='Configuration']")
+	@FindBy(xpath="//p[normalize-space()='Configuration']")
 	WebElement Configuration;
 	
-	@FindBy(xpath="//span[normalize-space()='Email accounts']")
+	@FindBy(xpath="//p[normalize-space()='Email accounts']")
 	WebElement Emailaccount;
 	
 	@FindBy(xpath="//a[normalize-space()='Add new']")

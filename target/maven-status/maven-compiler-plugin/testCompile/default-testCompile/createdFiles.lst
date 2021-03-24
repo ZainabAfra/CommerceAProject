@@ -3,6 +3,7 @@ com\CommerceAP\PageObjects\AddEmailAccount.class
 com\CommerceAP\PageObjects\AddShipments.class
 com\CommerceAP\utilities\Reporting.class
 com\CommerceAP\PageObjects\AddOrder.class
+com\CommerceAP\PageObjects\AddBestsellers.class
 com\CommerceAP\PageObjects\AddLanguages.class
 com\CommerceAP\TestCases\TC_AddNewVendors_007.class
 com\CommerceAP\PageObjects\AddDiscounts.class
@@ -14,6 +15,7 @@ com\CommerceAP\PageObjects\AddCategories.class
 com\CommerceAP\TestCases\TC_AddProducts_002.class
 com\CommerceAP\TestCases\TC_LoginTest_001.class
 com\CommerceAP\utilities\ReadConfig.class
+com\CommerceAP\TestCases\TC_AddBestsellers_012.class
 com\CommerceAP\TestCases\TC_AddCatagories_003.class
 com\CommerceAP\TestCases\TC_AddOrder_004.class
 com\CommerceAP\TestCases\TC_AddEmailaccount_010.class
